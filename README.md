@@ -40,6 +40,8 @@ Wearable health/safety monitoring band built on Seeed XIAO nRF52840, with LoRa (
 
 ## Structure
 - `firmware/oled_test/` — standalone SSD1306 OLED test sketch (Adafruit_GFX + Adafruit_SSD1306)
+- `firmware/max30100_test/` — standalone MAX30100 heart rate / SpO2 test sketch (MAX30100lib)
 
 ## Recent changes
-- **2026-08-30** — Added standalone SSD1306 OLED test sketch (`firmware/oled_test/oled_test.ino`).
+- **2026-08-30** — Added standalone SSD1306 OLED test sketch (`firmware/oled_test/oled_test.ino`); flashed and verified on XIAO nRF52840 hardware.
+- **2026-08-30** — Added standalone MAX30100 heart rate/SpO2 test sketch (`firmware/max30100_test/max30100_test.ino`); flashed and verified on XIAO nRF52840 hardware.
