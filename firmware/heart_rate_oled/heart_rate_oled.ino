@@ -79,6 +79,10 @@ void loop() {
     lastBeat = millis();
 
     beatsPerMinute = 60 / (delta / 1000.0);
+    Serial.print("Beat! delta=");
+    Serial.print(delta);
+    Serial.print(" BPM=");
+    Serial.println(beatsPerMinute);
 
     if (beatsPerMinute < 255 && beatsPerMinute > 20) {
       rates[rateSpot++] = (byte)beatsPerMinute;
@@ -88,7 +92,22 @@ void loop() {
       beatAvg = 0;
       for (byte x = 0; x < beatsRecorded; x++) beatAvg += rates[x];
       beatAvg /= beatsRecorded;
+    } else {
+      Serial.println("  (rejected: outside 20-255 BPM range)");
     }
+  }
+
+  static uint32_t lastDebugPrint = 0;
+  if (millis() - lastDebugPrint > 1000) {
+    lastDebugPrint = millis();
+    Serial.print("IR=");
+    Serial.print(irValue);
+    Serial.print(" finger=");
+    Serial.print(fingerDetected);
+    Serial.print(" beatsRecorded=");
+    Serial.print(beatsRecorded);
+    Serial.print(" beatAvg=");
+    Serial.println(beatAvg);
   }
 
   if (millis() - lastDisplayUpdate > DISPLAY_PERIOD_MS) {
