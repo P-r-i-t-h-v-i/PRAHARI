@@ -23,6 +23,7 @@ MAX30105 particleSensor;
 const byte RATE_SIZE = 4;
 byte rates[RATE_SIZE];
 byte rateSpot = 0;
+byte beatsRecorded = 0;
 long lastBeat = 0;
 float beatsPerMinute;
 int beatAvg = 0;
@@ -65,6 +66,14 @@ void loop() {
   long irValue = particleSensor.getIR();
   bool fingerDetected = irValue >= 50000;
 
+  if (!fingerDetected) {
+    // Reset averaging so a fresh finger placement doesn't start from a
+    // stale reading left over from the previous placement.
+    rateSpot = 0;
+    beatsRecorded = 0;
+    beatAvg = 0;
+  }
+
   if (checkForBeat(irValue)) {
     long delta = millis() - lastBeat;
     lastBeat = millis();
@@ -74,10 +83,11 @@ void loop() {
     if (beatsPerMinute < 255 && beatsPerMinute > 20) {
       rates[rateSpot++] = (byte)beatsPerMinute;
       rateSpot %= RATE_SIZE;
+      if (beatsRecorded < RATE_SIZE) beatsRecorded++;
 
       beatAvg = 0;
-      for (byte x = 0; x < RATE_SIZE; x++) beatAvg += rates[x];
-      beatAvg /= RATE_SIZE;
+      for (byte x = 0; x < beatsRecorded; x++) beatAvg += rates[x];
+      beatAvg /= beatsRecorded;
     }
   }
 

@@ -11,3 +11,4 @@ See README.md for full wiring reference and structure.
 - **2026-08-30** — Verified `max30100_test` end-to-end with a live finger on the sensor: IR rose from ~400 (no finger) to ~96000, avg BPM stabilized at 78.
 - **2026-08-30** — Added `firmware/lora_test` and `firmware/lora_probe`; LoRa module not yet responding over SPI (RegVersion reads 0x00), diagnosis in progress.
 - **2026-08-30** — Added `firmware/heart_rate_oled`, combining the heart-rate sensor with the SSD1306 OLED to display live BPM; flashed and both devices initialized successfully.
+- **2026-08-30** — Fixed `heart_rate_oled` showing unrealistically low BPM (e.g. 8) right after placing a finger: rolling average was dividing by fixed window size before it filled with real beats. Now averages only over beats actually recorded, and resets on finger removal.
