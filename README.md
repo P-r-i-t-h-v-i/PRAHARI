@@ -46,6 +46,7 @@ Wearable health/safety monitoring band built on Seeed XIAO nRF52840, with LoRa (
 - `firmware/lora_test/` — SX1278 LoRa test sketch (LoRa library by Sandeep Mistry), currently unresolved: chip not responding over SPI (see Known issues)
 - `firmware/lora_probe/` — raw SPI register probe that reads the SX1278's RegVersion (0x42) directly, bypassing the LoRa library
 - `firmware/heart_rate_oled/` — combined sketch: reads live heart rate and displays BPM on the SSD1306 OLED
+- `pcb/` — KiCad PCB project for the PRAHARI board (schematic, layout, footprints, gerbers, BOM in `pcb/out/`)
 
 ## Known hardware note
 The "MAX30100" heart-rate breakout in this build actually reports PART_ID `0x15` (MAX30102/MAX30105), not the true MAX30100 (`0x11`) — a common mislabeling on cheap breakout boards. Confirmed via `firmware/max30100_probe`. As a result, `firmware/max30100_test` uses the **SparkFun MAX3010x Pulse and Proximity Sensor Library** (MAX30105 API), not `MAX30100lib`, which fails to initialize against this chip regardless of I2C clock speed.
@@ -62,3 +63,4 @@ The "MAX30100" heart-rate breakout in this build actually reports PART_ID `0x15`
 - **2026-08-30** — Added `firmware/heart_rate_oled`, combining the heart-rate sensor with the SSD1306 OLED to display live BPM; flashed and both devices initialized successfully.
 - **2026-08-30** — Fixed `heart_rate_oled` showing unrealistically low BPM (e.g. 8) right after placing a finger: the rolling average was dividing by the fixed window size (4) even before 4 real beats were recorded, diluting early readings with zero-initialized buffer slots. Now averages only over beats actually recorded, and resets the average when the finger is removed so a fresh placement doesn't inherit a stale reading.
 - **2026-08-30** — Added serial debug logging to `heart_rate_oled` (beat delta/BPM, rejection reason, IR/finger/avg snapshot every 1s); compiled and uploaded to XIAO nRF52840 hardware via arduino-cli (installed `adafruit-nrfutil` locally to enable DFU upload over `/dev/ttyACM0`).
+- **2026-09-01** — Added `pcb/` — KiCad PCB project for the PRAHARI board (schematic, layout, footprints, gerbers, BOM).

@@ -1,0 +1,142 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-30T17:47:45",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/7a1f0c62-4d8b-4e19-9c33-0e1a2b3c4d5e",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'VUSB'",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 0.3937
+                            },
+                            "uuid": "d73b8f27-1bd1-4df6-a457-80deefc7fc9d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_DIO2'",
+                            "pos": {
+                                "x": 1.2573,
+                                "y": 0.3937
+                            },
+                            "uuid": "626ef82d-b887-4a72-b878-0816470cfe1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_DIO3'",
+                            "pos": {
+                                "x": 1.2573,
+                                "y": 0.4191
+                            },
+                            "uuid": "d5e649bb-680c-486f-a6c0-31dab1d2de93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_DIO4'",
+                            "pos": {
+                                "x": 1.2573,
+                                "y": 0.4445
+                            },
+                            "uuid": "bdbd3993-a756-47c7-8133-880abd06a776"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_DIO5'",
+                            "pos": {
+                                "x": 1.2573,
+                                "y": 0.4699
+                            },
+                            "uuid": "e284e778-ad16-4b47-a084-385fa015faf5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'PPG_IRD'",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.4953
+                            },
+                            "uuid": "4b7876e6-aeea-4b45-b102-8f4252439712"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'PPG_RD'",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.5207
+                            },
+                            "uuid": "c724cbbe-149c-4214-87eb-9b5e98fc8ae2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "PRAHARI.kicad_sch"
+}
