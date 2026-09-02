@@ -1,0 +1,14 @@
+# Uploaded archive and nested project snapshots
+# (pcb/out/PRAHARI-gerbers.zip, the fab deliverable, stays tracked)
+/PRAHARI-PCB.zip
+/pcb/*.zip
+
+# KiCad transient / backup files
+*.lck
+/pcb/*.bak-*
+/pcb/scripts/*.bak-*
+/pcb/.history/
+
+# Python
+__pycache__/
+*.pyc

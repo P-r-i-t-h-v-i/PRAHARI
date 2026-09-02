@@ -1,0 +1,3067 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-02T11:53:43",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/7a1f0c62-4d8b-4e19-9c33-0e1a2b3c4d5e",
+            "violations": [
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR33 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.4,
+                                "y": 2.5311
+                            },
+                            "uuid": "47663a48-27d7-429f-9147-a798f5b81f05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R3 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.4,
+                                "y": 2.5819
+                            },
+                            "uuid": "2c36524d-9542-4ec3-9ff9-ab0cc961721b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.4,
+                                "y": 2.5819
+                            },
+                            "uuid": "2e959d35-8ca8-4c7a-ac36-9eeb1609fabf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 0.4,
+                                "y": 2.6581
+                            },
+                            "uuid": "c79e3171-a941-4b07-97cc-eb1329b77973"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.2200 mm",
+                            "pos": {
+                                "x": 0.4692,
+                                "y": 1.5492
+                            },
+                            "uuid": "a6b45cbf-0f0a-4312-9266-11970616b5c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR19 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.4692,
+                                "y": 1.7692
+                            },
+                            "uuid": "04fdd4a0-8d15-472a-a017-3f4013b73041"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.4692,
+                                "y": 2.32
+                            },
+                            "uuid": "41ceacb4-d124-4783-9894-b7c5649d2fe2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J4 Pin 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 0.4692,
+                                "y": 2.32
+                            },
+                            "uuid": "798595a0-3c67-4779-8dec-66579102ca85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.4692,
+                                "y": 2.3454
+                            },
+                            "uuid": "1500b16f-ee75-46b1-b5b4-3ea51fdc2d18"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR18 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.5092,
+                                "y": 1.4438
+                            },
+                            "uuid": "bd2167ac-10cf-4b30-89d3-591814d5eb52"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0800 mm",
+                            "pos": {
+                                "x": 0.5092,
+                                "y": 1.5238
+                            },
+                            "uuid": "4302e0f5-e0d6-461a-9cd3-a8ec652ccd19"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.5184
+                            },
+                            "uuid": "89e1f602-a5dd-4e28-8a71-59d9e2d00d8d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1 [D0/A0, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.5184
+                            },
+                            "uuid": "d815a939-e11e-4987-aa9d-a7b5697c80e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.5438
+                            },
+                            "uuid": "4f4d6d35-15d2-4907-b8e3-e218cdde8387"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.5692
+                            },
+                            "uuid": "d1a688e4-d554-4050-9445-c8c18089192a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.5946
+                            },
+                            "uuid": "1ec07546-1ac0-419b-8fed-8ae9d1748d68"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.62
+                            },
+                            "uuid": "a03c6d44-0053-4db8-a20f-c877214da4a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.6454
+                            },
+                            "uuid": "0e646457-36fe-43b6-a76b-fb1e316043f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.623,
+                                "y": 0.6708
+                            },
+                            "uuid": "da2bd1e5-2245-4ac4-901a-f871635c7559"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0800 mm",
+                            "pos": {
+                                "x": 0.6619,
+                                "y": 2.68
+                            },
+                            "uuid": "d5b3fe97-77aa-42fa-9108-566c44e77e4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR34 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.6619,
+                                "y": 2.76
+                            },
+                            "uuid": "9c2d9ebc-6974-459a-a3ab-9ab1a5e094cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'PPG_IRD'",
+                            "pos": {
+                                "x": 0.7038,
+                                "y": 1.6508
+                            },
+                            "uuid": "eaaab778-1dd2-4748-9e5a-c1712a78b4a8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'PPG_RD'",
+                            "pos": {
+                                "x": 0.7038,
+                                "y": 1.6762
+                            },
+                            "uuid": "fe914fca-2ca8-43fd-82df-47325500cc95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.7246,
+                                "y": 0.4168
+                            },
+                            "uuid": "46936a4f-b6c9-4df7-9eca-639a80ca9e7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.7246,
+                                "y": 0.4676
+                            },
+                            "uuid": "92e734d0-c30b-4e6d-8a09-c7c505707803"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.5238
+                            },
+                            "uuid": "2f7d907a-90fc-4def-b3d5-3df945d151d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2200 mm",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.5238
+                            },
+                            "uuid": "968beda2-f38d-4dc2-b793-3e109d09f9e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2600 mm",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.5492
+                            },
+                            "uuid": "376fac32-5929-409f-a9d5-fab594be4cc2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.5746
+                            },
+                            "uuid": "94ddc2a3-ee21-40a2-bd08-f5ae50685900"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.6
+                            },
+                            "uuid": "55583928-b111-4c82-a2a4-9635a3c57aa0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.6254
+                            },
+                            "uuid": "7273c47b-7b69-4bbc-b523-41966db2abf2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.6508
+                            },
+                            "uuid": "8aef24fa-bbe8-4d73-be4e-478440b633d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.7292,
+                                "y": 1.6762
+                            },
+                            "uuid": "4f20e041-08b8-494d-b330-f981d53c2f47"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.75,
+                                "y": 0.7724
+                            },
+                            "uuid": "54911d77-6716-484e-8168-4255ccd57758"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.75,
+                                "y": 0.8232
+                            },
+                            "uuid": "bc3409f6-5eff-49b0-ba46-598f65bc7ecb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C6 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.75,
+                                "y": 2.3619
+                            },
+                            "uuid": "1784a810-3e13-45e9-97eb-5a58f4c39ffa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.75,
+                                "y": 2.3619
+                            },
+                            "uuid": "ea36cba6-542f-4875-874f-1f358d6fdb7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 0.75,
+                                "y": 2.4381
+                            },
+                            "uuid": "60445f1a-d9cf-485f-94a5-7ed6b6884d71"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR30 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.75,
+                                "y": 2.4889
+                            },
+                            "uuid": "4057aa94-e43d-49ac-a2b0-3d33603dd41b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1000 mm",
+                            "pos": {
+                                "x": 0.7619,
+                                "y": 2.68
+                            },
+                            "uuid": "79c914ac-d913-466c-8bca-06c9e83f422e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol D2 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 0.7619,
+                                "y": 2.68
+                            },
+                            "uuid": "a48f2f25-9658-475a-8a9d-5af39869991d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'VUSB'",
+                            "pos": {
+                                "x": 0.7754,
+                                "y": 0.4422
+                            },
+                            "uuid": "bac0b79f-1dc7-4bcc-bbb3-730f0e99daa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.7754,
+                                "y": 0.4676
+                            },
+                            "uuid": "e1b58522-5232-466b-a705-0428cb5629ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.8381,
+                                "y": 2.68
+                            },
+                            "uuid": "98ddba6f-d916-4f21-b80d-412b34444669"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.877,
+                                "y": 0.5184
+                            },
+                            "uuid": "fd440539-aa0e-48a1-9815-0b6b6c4d6a3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.877,
+                                "y": 0.5438
+                            },
+                            "uuid": "493018ae-0306-445f-8cf3-7b7e4b809c12"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.877,
+                                "y": 0.5692
+                            },
+                            "uuid": "53d6cdd5-600d-4d69-8069-af63e166123c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 0.877,
+                                "y": 0.5946
+                            },
+                            "uuid": "921a6604-c426-4b89-adbc-8d9f9d372224"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.9976,
+                                "y": 2.62
+                            },
+                            "uuid": "77c8bffd-9a06-4b51-a892-9a3d666b4376"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR35 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 0.9976,
+                                "y": 2.6962
+                            },
+                            "uuid": "d42466ac-0d7e-49c5-8dd2-e8be8dfee644"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0600 mm",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.3
+                            },
+                            "uuid": "27944db9-55b7-49d2-aaaa-55fed5dab7f2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.3
+                            },
+                            "uuid": "8e4fd11b-874c-40eb-b692-5954bf87c83f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.4419
+                            },
+                            "uuid": "62f2ab41-7ef7-44d3-8d27-26dd8d280970"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R6 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.4419
+                            },
+                            "uuid": "8e4b16ae-9861-4596-a0d6-f7ab1cb76cdc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.5181
+                            },
+                            "uuid": "010ebb49-34fb-4cf1-9bfc-7b4ffd36f5ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.6819
+                            },
+                            "uuid": "aa9ccf0c-8818-4fb2-b6ae-74b08559b6d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C7 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.6819
+                            },
+                            "uuid": "cf6cfc81-f4b7-40ec-8f27-ae6582f40e1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.0,
+                                "y": 2.7581
+                            },
+                            "uuid": "5667a21c-7a13-4333-ab24-c2e3dbdcce37"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.0484,
+                                "y": 2.5692
+                            },
+                            "uuid": "3e255072-825a-439a-bc9b-b5fb812ca651"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 1 [OD, Output, Line]",
+                            "pos": {
+                                "x": 1.0484,
+                                "y": 2.5692
+                            },
+                            "uuid": "96ffdce8-9e1a-42f8-b0de-931a316f9361"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.0484,
+                                "y": 2.62
+                            },
+                            "uuid": "ac8b37c7-f912-4b93-b6c3-aad064979b3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.0484,
+                                "y": 2.6708
+                            },
+                            "uuid": "61921b2d-b686-455c-afd6-1d75135abc59"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0600 mm",
+                            "pos": {
+                                "x": 1.18,
+                                "y": 2.3
+                            },
+                            "uuid": "4ea7c435-9c6c-4a18-9947-a97cb62dca36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP2 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.18,
+                                "y": 2.3
+                            },
+                            "uuid": "b60db42a-351f-44b4-b459-40f99c266881"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR31 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.18,
+                                "y": 2.36
+                            },
+                            "uuid": "73a4232f-04d5-44a1-ae84-3ab6cc2e6722"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR03 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.2,
+                                "y": 0.5111
+                            },
+                            "uuid": "a6436c83-add7-42f3-8932-08dc8b4b7259"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C2 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.2,
+                                "y": 0.5619
+                            },
+                            "uuid": "3988a7c2-8f2a-4f2e-9920-d34c93e80b67"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.2,
+                                "y": 0.5619
+                            },
+                            "uuid": "63f2eec4-cc88-48ce-94d7-afbb87b30a7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.2,
+                                "y": 0.6381
+                            },
+                            "uuid": "5fbd31d8-0dda-4820-8499-eea6532d1c23"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR04 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.2,
+                                "y": 0.6889
+                            },
+                            "uuid": "1e6ddc45-4283-497c-8d18-495f1b726432"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.2516,
+                                "y": 2.5692
+                            },
+                            "uuid": "3a0615c5-6ecf-4234-ab10-8093a7f1a69e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.2516,
+                                "y": 2.62
+                            },
+                            "uuid": "b5b2cef7-b752-4852-b621-78d91c69c29d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1900 mm",
+                            "pos": {
+                                "x": 1.2892,
+                                "y": 1.58
+                            },
+                            "uuid": "50d12745-ee7a-433d-a50f-a569b8e74286"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR21 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.2892,
+                                "y": 1.77
+                            },
+                            "uuid": "f36d3a13-6377-4f46-ba36-ee4e50e11a72"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR20 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.3292,
+                                "y": 1.4446
+                            },
+                            "uuid": "c33ad0fb-0e33-493c-b3ae-fd4518b266cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1100 mm",
+                            "pos": {
+                                "x": 1.3292,
+                                "y": 1.5546
+                            },
+                            "uuid": "e57b2895-8b2c-4f20-ae17-041802ab470d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 1.3476,
+                                "y": 2.6708
+                            },
+                            "uuid": "71bc8589-9db4-4db2-af74-fbb42e850bd6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR36 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.3476,
+                                "y": 2.747
+                            },
+                            "uuid": "5eb92d9e-4a13-43b4-a98e-2acaf1d4c39c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0600 mm",
+                            "pos": {
+                                "x": 1.36,
+                                "y": 2.3
+                            },
+                            "uuid": "1ff48503-646e-4990-81f9-6c9d5b5249cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP5 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.36,
+                                "y": 2.3
+                            },
+                            "uuid": "2e26267e-be63-42be-9e3a-253c94a43099"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.3984,
+                                "y": 2.5692
+                            },
+                            "uuid": "1e47c8e4-e460-48b0-af07-88b6d6fbe0a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin 1 [S1, Passive, Line]",
+                            "pos": {
+                                "x": 1.3984,
+                                "y": 2.5692
+                            },
+                            "uuid": "61b97a9b-0e32-4db8-9435-2ac17248a73d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.3984,
+                                "y": 2.62
+                            },
+                            "uuid": "7ef1e255-41c0-4b95-ab5d-463a1b2dc57e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.3984,
+                                "y": 2.6708
+                            },
+                            "uuid": "1d38b554-5986-483d-8156-f3c5980676f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0600 mm",
+                            "pos": {
+                                "x": 1.4,
+                                "y": 2.58
+                            },
+                            "uuid": "c636bb1a-54b7-42b2-af71-14db03e5e342"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #FLG01 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 1.4,
+                                "y": 2.58
+                            },
+                            "uuid": "cfb4b4e9-6d15-4fc6-923d-1430eb793e06"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR39 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4,
+                                "y": 2.64
+                            },
+                            "uuid": "e55451c4-98b7-4038-8191-70bed0062af8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0600 mm",
+                            "pos": {
+                                "x": 1.54,
+                                "y": 2.3
+                            },
+                            "uuid": "86e8a2e5-45b7-4e86-b6dd-f24abb04bc9d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP6 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.54,
+                                "y": 2.3
+                            },
+                            "uuid": "cd06217e-aa67-4164-bc29-6b58981b436d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR32 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.54,
+                                "y": 2.36
+                            },
+                            "uuid": "b85f92da-9da8-4a6e-9073-d30fab0f223a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2200 mm",
+                            "pos": {
+                                "x": 1.5492,
+                                "y": 1.5546
+                            },
+                            "uuid": "181179fb-40c6-4615-b15b-8713209e415a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J2 Pin 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 1.5492,
+                                "y": 1.5546
+                            },
+                            "uuid": "e37acab1-3d67-4db0-9eda-94d244b8ff13"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2600 mm",
+                            "pos": {
+                                "x": 1.5492,
+                                "y": 1.58
+                            },
+                            "uuid": "39e63645-8960-4d46-95b9-bbcb0016e699"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.5492,
+                                "y": 1.6054
+                            },
+                            "uuid": "b1d753c3-8eef-4b36-bc05-5f61b087e1c6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.5492,
+                                "y": 1.6308
+                            },
+                            "uuid": "4fb86683-9b19-4cc8-97e3-c1176acf7391"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.6016,
+                                "y": 2.5692
+                            },
+                            "uuid": "535b6d8f-c9e4-465c-8a06-600f981858e3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.6016,
+                                "y": 2.62
+                            },
+                            "uuid": "1738e2d8-1d2d-4bbb-8bb5-5fb714651dec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.6016,
+                                "y": 2.6708
+                            },
+                            "uuid": "75e3774d-c08c-419a-a939-141955437f10"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR06 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.68,
+                                "y": 0.493
+                            },
+                            "uuid": "540273ae-1522-4bbf-a531-27e13c0a00af"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.68,
+                                "y": 0.5438
+                            },
+                            "uuid": "0b5ce6a1-cc69-422c-8025-39fb9db18f6e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 4 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.68,
+                                "y": 0.6962
+                            },
+                            "uuid": "10e1ca09-111f-47a2-8512-06fa1ef1a923"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.68,
+                                "y": 0.6962
+                            },
+                            "uuid": "4e058c74-7496-4730-ae51-3b93726fe7bf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR05 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.68,
+                                "y": 0.747
+                            },
+                            "uuid": "c9b40f35-3cfc-4924-95e0-d08c8ccf1d85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.7562,
+                                "y": 0.5946
+                            },
+                            "uuid": "f8afe80d-b498-4cec-a306-99717e2e6bae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 1.7562,
+                                "y": 0.6454
+                            },
+                            "uuid": "d235dfc3-c197-4830-82f8-cfc56d92ab47"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR07 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 0.5111
+                            },
+                            "uuid": "eaf7efc3-94ed-44af-a8fc-47fa4e625bb8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C4 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 0.5619
+                            },
+                            "uuid": "ed87ca66-cce2-4c0e-a14d-65c34eb88098"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 0.5619
+                            },
+                            "uuid": "fd4760d4-8fd1-440f-b0e2-6363920f45a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 0.6381
+                            },
+                            "uuid": "52b9f1d9-8c5d-4548-86ec-28f49329d595"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR08 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 0.6889
+                            },
+                            "uuid": "fa12a9b5-d5a5-4d8c-91d7-62fe0d8145d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0400 mm",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.2819
+                            },
+                            "uuid": "7d482ef0-9547-4cd4-8ca1-3e3d7e5265e0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R4 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.2819
+                            },
+                            "uuid": "de291fab-3481-4159-a9a0-e0281a184750"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1219 mm",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.3581
+                            },
+                            "uuid": "e8283c34-3869-4e4b-87fc-435f77787837"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0992 mm",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.48
+                            },
+                            "uuid": "42c24f42-7090-492b-a957-97b175703d9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R5 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.5419
+                            },
+                            "uuid": "9ca0f7b6-a717-4101-9fdd-f5dac8da19fb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0619 mm",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.5419
+                            },
+                            "uuid": "dcc29132-d2ce-4625-a352-aed9209acf33"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.6181
+                            },
+                            "uuid": "25bae732-05d3-49ae-8879-3cf677107675"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR38 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.0,
+                                "y": 2.6689
+                            },
+                            "uuid": "27b1ee36-7ca2-4f3d-b3c0-4ff4b043905f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1900 mm",
+                            "pos": {
+                                "x": 2.0692,
+                                "y": 1.58
+                            },
+                            "uuid": "8de6f70a-1428-4450-a465-610bed8a9159"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR23 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.0692,
+                                "y": 1.77
+                            },
+                            "uuid": "d9d05621-6cc4-4784-b878-5abce3afe158"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 Pin 1 [G, Input, Line]",
+                            "pos": {
+                                "x": 2.0992,
+                                "y": 2.48
+                            },
+                            "uuid": "8449a770-200e-465f-ba79-985d21293ecf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR22 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.1092,
+                                "y": 1.4446
+                            },
+                            "uuid": "67f163af-5c32-4e89-8ee7-a38640553b05"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1100 mm",
+                            "pos": {
+                                "x": 2.1092,
+                                "y": 1.5546
+                            },
+                            "uuid": "a26d3196-6f65-4bfe-97a2-295310fd5996"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.5738 mm",
+                            "pos": {
+                                "x": 2.1754,
+                                "y": 2.36
+                            },
+                            "uuid": "df2dd5b8-73bd-4c61-9841-721bed723c42"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0692 mm",
+                            "pos": {
+                                "x": 2.1754,
+                                "y": 2.4292
+                            },
+                            "uuid": "129050b6-6a13-4cd6-8913-b001ae194bb2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0892 mm",
+                            "pos": {
+                                "x": 2.1754,
+                                "y": 2.5308
+                            },
+                            "uuid": "7206fc2a-daa0-43f6-b4d4-3acb3f2b6897"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR37 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.1754,
+                                "y": 2.62
+                            },
+                            "uuid": "d61fa824-4879-4e15-8201-0437f6bc7039"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2200 mm",
+                            "pos": {
+                                "x": 2.3292,
+                                "y": 1.5546
+                            },
+                            "uuid": "831e3716-8651-4667-9eca-0a26ba0cde51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J3 Pin 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 2.3292,
+                                "y": 1.5546
+                            },
+                            "uuid": "90c7b618-2adc-46b8-aa1b-bc79e1a68c41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2600 mm",
+                            "pos": {
+                                "x": 2.3292,
+                                "y": 1.58
+                            },
+                            "uuid": "77a11720-9dd8-4380-ba6f-dc34558ea811"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.3292,
+                                "y": 1.6054
+                            },
+                            "uuid": "42f9ce53-1e59-4904-b872-8416fdd7977d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.3292,
+                                "y": 1.6308
+                            },
+                            "uuid": "66be8e19-2c38-40b7-afca-c829ee5c17dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol D1 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 2.4619,
+                                "y": 2.26
+                            },
+                            "uuid": "2c9a2873-9220-47ee-a20b-0ea2354c54d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0600 mm",
+                            "pos": {
+                                "x": 2.4619,
+                                "y": 2.26
+                            },
+                            "uuid": "8df2dd21-b4aa-41a5-aad3-30cbbbddda9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1000 mm",
+                            "pos": {
+                                "x": 2.5381,
+                                "y": 2.26
+                            },
+                            "uuid": "da6254da-762f-4ebf-b97f-d84cc9ebb9cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.723,
+                                "y": 0.5438
+                            },
+                            "uuid": "b7aca83e-a291-48f0-8931-5cacf0353351"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.723,
+                                "y": 0.5946
+                            },
+                            "uuid": "4ef80b9d-a692-4aae-b888-0f8cb9387963"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.723,
+                                "y": 0.62
+                            },
+                            "uuid": "2b5c9149-8b16-4c72-ae2b-24ce9ecae4b2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.723,
+                                "y": 0.6454
+                            },
+                            "uuid": "c60a97b2-d66d-4501-9753-c0c39843ac98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.723,
+                                "y": 0.6708
+                            },
+                            "uuid": "5154afa2-ac6c-4e45-94ed-e7c4e929b7ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J5 Pin 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 2.7492,
+                                "y": 2.3346
+                            },
+                            "uuid": "2ded12be-a483-493c-b583-b338d69a9093"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.7492,
+                                "y": 2.3346
+                            },
+                            "uuid": "cda86e6c-4f83-47ab-af0b-3b03a0e25e2e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 2.8246,
+                                "y": 0.7724
+                            },
+                            "uuid": "0d01102e-51eb-42ac-9240-22816ac0dd3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR10 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.8246,
+                                "y": 0.874
+                            },
+                            "uuid": "f3d04ac0-e0ff-48bd-9037-fc2d7230bc4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1900 mm",
+                            "pos": {
+                                "x": 2.8492,
+                                "y": 1.58
+                            },
+                            "uuid": "e04b0480-dcc4-449f-a039-89a863cca390"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR25 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.8492,
+                                "y": 1.77
+                            },
+                            "uuid": "65d6df96-8786-47bf-8224-4e1fee12497d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR11 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.85,
+                                "y": 0.4168
+                            },
+                            "uuid": "fafd7fb5-ffeb-48d5-8620-337847cdd730"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.85,
+                                "y": 0.4676
+                            },
+                            "uuid": "d44693a3-875c-4eb5-b1c3-b44f65d08290"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.85,
+                                "y": 0.7724
+                            },
+                            "uuid": "1635c9e2-3eb4-4a3a-8d50-b3a27d89310e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR12 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.85,
+                                "y": 0.8232
+                            },
+                            "uuid": "148623ff-a5b9-4d54-8389-04f81457231a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 2.8754,
+                                "y": 0.7724
+                            },
+                            "uuid": "ce721ed8-77a8-40de-ae40-efb8f6b93751"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR09 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.8754,
+                                "y": 0.874
+                            },
+                            "uuid": "fdda7f15-e55a-403c-a297-1aa413e1d88e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR24 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.8892,
+                                "y": 1.4446
+                            },
+                            "uuid": "4ab57fb4-dacc-4608-9509-ca6fbfe0d9c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1100 mm",
+                            "pos": {
+                                "x": 2.8892,
+                                "y": 1.5546
+                            },
+                            "uuid": "c70ae3ed-5534-4196-8d35-3022f3b3016a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 1 [ANT, Passive, Line]",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.5184
+                            },
+                            "uuid": "379fbbb9-f3a9-4157-9bfe-8943c0e2e492"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2722 mm",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.5184
+                            },
+                            "uuid": "fc42644f-0146-4a72-9ab0-d58e3c8abe00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.5692
+                            },
+                            "uuid": "f7769085-674d-4c12-9851-6f87b8f35a7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.5946
+                            },
+                            "uuid": "7f781338-f360-4e01-a03a-9aa85bf8e524"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.62
+                            },
+                            "uuid": "df490e31-9376-490e-8f39-c5ddca85bb25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.6454
+                            },
+                            "uuid": "6d3dbc29-402b-435d-80ce-5c5950f14d91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.6708
+                            },
+                            "uuid": "b80c540d-ce7e-4546-ae4d-57ce0f997839"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 2.977,
+                                "y": 0.6962
+                            },
+                            "uuid": "db1e1941-2248-41dc-b767-8956d530874a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_DIO2'",
+                            "pos": {
+                                "x": 3.0024,
+                                "y": 0.62
+                            },
+                            "uuid": "53ec0c4d-156d-454d-ac1c-39dd0a7bc21b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_DIO3'",
+                            "pos": {
+                                "x": 3.0024,
+                                "y": 0.6454
+                            },
+                            "uuid": "8c359995-33a9-470a-b27e-2364d170e71f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_TXEN'",
+                            "pos": {
+                                "x": 3.0024,
+                                "y": 0.6708
+                            },
+                            "uuid": "bbf179d7-dbc8-4aee-a5fa-33a161277f9c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'LORA_RXEN'",
+                            "pos": {
+                                "x": 3.0024,
+                                "y": 0.6962
+                            },
+                            "uuid": "5e7680e2-df78-4deb-85e0-8c8c8cd3bd12"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2200 mm",
+                            "pos": {
+                                "x": 3.1092,
+                                "y": 1.5546
+                            },
+                            "uuid": "449f1a94-5978-43d2-8011-551cf714e60a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J7 Pin 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 3.1092,
+                                "y": 1.5546
+                            },
+                            "uuid": "e7abdce6-e065-4219-a5d4-578c9d91a85d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.2600 mm",
+                            "pos": {
+                                "x": 3.1092,
+                                "y": 1.58
+                            },
+                            "uuid": "c9533730-ed62-475b-bc84-4d131b2eb5fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 3.1092,
+                                "y": 1.6054
+                            },
+                            "uuid": "a6b4afef-a547-49cb-b245-8780efec28fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0254 mm",
+                            "pos": {
+                                "x": 3.1092,
+                                "y": 1.6308
+                            },
+                            "uuid": "c4470cda-16af-417c-82f5-76ce0b228950"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 3.1692,
+                                "y": 0.5438
+                            },
+                            "uuid": "5a8ebeec-06ec-496a-9859-ad70f96a938d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR13 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.1692,
+                                "y": 0.62
+                            },
+                            "uuid": "830bd5d4-01db-4849-9b29-4b813515082d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol J6 Pin 1 [Pin_1, Passive, Line]",
+                            "pos": {
+                                "x": 3.2492,
+                                "y": 0.5184
+                            },
+                            "uuid": "9b69daae-45f9-4821-8b74-d4de26736b73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.0800 mm",
+                            "pos": {
+                                "x": 3.2492,
+                                "y": 0.5438
+                            },
+                            "uuid": "f1e77c86-b64d-4ba7-a1c6-a65653200f7b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR26 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 1.4311
+                            },
+                            "uuid": "157d506e-0d07-409f-b2eb-efa689b37cbd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 1.4819
+                            },
+                            "uuid": "0f35a600-666e-435f-90f6-7cdcbff00f3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R1 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 1.4819
+                            },
+                            "uuid": "315db0dd-2c43-4fb9-a509-9418ebb11c43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 1.5581
+                            },
+                            "uuid": "b4339271-bf7d-437e-9f4f-f696e5383fec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 1.72
+                            },
+                            "uuid": "0e322e6b-2707-4c2d-b173-7f2cf2775f86"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP3 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 3.5,
+                                "y": 1.72
+                            },
+                            "uuid": "56beb3d0-262e-471b-81c7-1a0dd31990c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR14 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.6,
+                                "y": 0.5111
+                            },
+                            "uuid": "8c7f6cc3-8039-4fcf-a223-b5a629c8154b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.6,
+                                "y": 0.5619
+                            },
+                            "uuid": "16d73cd2-e013-4226-b595-c024c5fe4fe9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C1 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.6,
+                                "y": 0.5619
+                            },
+                            "uuid": "ad908c4c-2a53-4ccf-b01d-eea5293a85b9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.6,
+                                "y": 0.6381
+                            },
+                            "uuid": "ce83a557-b7fb-4ce5-9fb0-7434c436cdb0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR15 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.6,
+                                "y": 0.6889
+                            },
+                            "uuid": "4b44a7bd-0368-46f3-b972-7c9824f2e2e9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR27 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.66,
+                                "y": 1.4311
+                            },
+                            "uuid": "57e93ba1-2b19-4fcd-8204-133ce2fcab4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R2 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.66,
+                                "y": 1.4819
+                            },
+                            "uuid": "33b3ddd4-c53b-4cd8-a8ec-91db3a6ba05c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.66,
+                                "y": 1.4819
+                            },
+                            "uuid": "693f3297-3a85-4b4b-8ec8-36ce449dee25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 3.66,
+                                "y": 1.5581
+                            },
+                            "uuid": "6561b10e-c03b-458c-a803-9a7004a707ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol TP4 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 3.66,
+                                "y": 1.72
+                            },
+                            "uuid": "7623d0a3-80a4-481e-b9cc-09723789542a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.66,
+                                "y": 1.72
+                            },
+                            "uuid": "ee998330-f597-426a-8368-b2067b835b89"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR16 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.78,
+                                "y": 0.5111
+                            },
+                            "uuid": "da8cbd7e-891e-4a7e-b874-4545c4acb76a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C3 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.78,
+                                "y": 0.5619
+                            },
+                            "uuid": "0baa3661-ea4b-4abc-a0bd-522e89d551ee"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.78,
+                                "y": 0.5619
+                            },
+                            "uuid": "f86672c7-181b-4c35-bb9c-a985d4265e0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.78,
+                                "y": 0.6381
+                            },
+                            "uuid": "50596405-3424-4965-a94a-17c4ff635221"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR17 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.78,
+                                "y": 0.6889
+                            },
+                            "uuid": "73a3de5c-5446-49a6-9006-d40120b913b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR28 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.86,
+                                "y": 1.4311
+                            },
+                            "uuid": "b20186ad-771a-47ca-bc0e-e46e3d35acd6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.86,
+                                "y": 1.4819
+                            },
+                            "uuid": "211515f4-7575-4b79-a97f-98927c7c8206"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C5 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 3.86,
+                                "y": 1.4819
+                            },
+                            "uuid": "a11326ab-e704-433b-96d8-245afc899cdd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 3.86,
+                                "y": 1.5581
+                            },
+                            "uuid": "f5e6f68d-00e3-44a3-9b22-86a29d100eae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR29 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 3.86,
+                                "y": 1.6089
+                            },
+                            "uuid": "025d8d4f-2198-4daa-a219-ad07f07aa7aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                }
+            ]
+        }
+    ],
+    "source": "PRAHARI.kicad_sch"
+}

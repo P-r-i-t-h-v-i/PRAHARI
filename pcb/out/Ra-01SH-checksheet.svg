@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="60.00mm" height="87.00mm" viewBox="0 0 60.00 87.00">
+<style>text{font-family:DejaVu Sans,Arial,sans-serif}.pad{fill:#b8860b;stroke:#000;stroke-width:0.05}.body{fill:none;stroke:#000;stroke-width:0.15}.ctyd{fill:none;stroke:#888;stroke-width:0.05;stroke-dasharray:0.6 0.4}.num{font-size:1.0px;text-anchor:middle;fill:#000}.sig{font-size:0.95px;fill:#000}.ttl{font-size:2.2px;fill:#000}.sub{font-size:1.25px;fill:#000}.warn{font-size:1.35px;fill:#a00;font-weight:bold}.rule{stroke:#000;stroke-width:0.12}</style>
+<rect x="0" y="0" width="60.00" height="87.00" fill="#fff"/>
+<text class="ttl" x="22.00" y="7.5">Ra-01SH land pattern - PRINT AT 1:1</text>
+<text class="sub" x="22.00" y="11.5">PRAHARI rev B, U2. Seat a real module on this outline and confirm every signal name.</text>
+<rect class="ctyd" x="20.600" y="21.400" width="18.800" height="18.200"/>
+<rect class="body" x="22.000" y="22.000" width="16.000" height="17.000"/>
+<circle cx="20.600" cy="23.500" r="0.35" fill="#000"/>
+<rect class="pad" x="21.000" y="22.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="23.850">1</text>
+<text class="sig" x="20.400" y="23.850" text-anchor="end">ANT</text>
+<rect class="pad" x="21.000" y="24.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="25.850">2</text>
+<text class="sig" x="20.400" y="25.850" text-anchor="end">GND</text>
+<rect class="pad" x="21.000" y="26.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="27.850">3</text>
+<text class="sig" x="20.400" y="27.850" text-anchor="end">VCC</text>
+<rect class="pad" x="21.000" y="28.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="29.850">4</text>
+<text class="sig" x="20.400" y="29.850" text-anchor="end">NRESET</text>
+<rect class="pad" x="21.000" y="30.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="31.850">5</text>
+<text class="sig" x="20.400" y="31.850" text-anchor="end">BUSY</text>
+<rect class="pad" x="21.000" y="32.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="33.850">6</text>
+<text class="sig" x="20.400" y="33.850" text-anchor="end">DIO1</text>
+<rect class="pad" x="21.000" y="34.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="35.850">7</text>
+<text class="sig" x="20.400" y="35.850" text-anchor="end">DIO2</text>
+<rect class="pad" x="21.000" y="36.750" width="2.000" height="1.500"/>
+<text class="num" x="22.000" y="37.850">8</text>
+<text class="sig" x="20.400" y="37.850" text-anchor="end">DIO3</text>
+<rect class="pad" x="37.000" y="36.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="37.850">9</text>
+<text class="sig" x="39.600" y="37.850">GND</text>
+<rect class="pad" x="37.000" y="34.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="35.850">10</text>
+<text class="sig" x="39.600" y="35.850">TXEN</text>
+<rect class="pad" x="37.000" y="32.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="33.850">11</text>
+<text class="sig" x="39.600" y="33.850">RXEN</text>
+<rect class="pad" x="37.000" y="30.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="31.850">12</text>
+<text class="sig" x="39.600" y="31.850">SCK</text>
+<rect class="pad" x="37.000" y="28.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="29.850">13</text>
+<text class="sig" x="39.600" y="29.850">MISO</text>
+<rect class="pad" x="37.000" y="26.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="27.850">14</text>
+<text class="sig" x="39.600" y="27.850">MOSI</text>
+<rect class="pad" x="37.000" y="24.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="25.850">15</text>
+<text class="sig" x="39.600" y="25.850">NSS</text>
+<rect class="pad" x="37.000" y="22.750" width="2.000" height="1.500"/>
+<text class="num" x="38.000" y="23.850">16</text>
+<text class="sig" x="39.600" y="23.850">GND</text>
+<text class="sub" x="22.00" y="52.50">Scale check - this bar must measure exactly 20.0 mm:</text>
+<line class="rule" x1="22.00" y1="55.00" x2="42.00" y2="55.00"/>
+<line class="rule" x1="22.00" y1="55.00" x2="22.00" y2="53.80"/>
+<line class="rule" x1="23.00" y1="55.00" x2="23.00" y2="54.40"/>
+<line class="rule" x1="24.00" y1="55.00" x2="24.00" y2="54.40"/>
+<line class="rule" x1="25.00" y1="55.00" x2="25.00" y2="54.40"/>
+<line class="rule" x1="26.00" y1="55.00" x2="26.00" y2="54.40"/>
+<line class="rule" x1="27.00" y1="55.00" x2="27.00" y2="53.80"/>
+<line class="rule" x1="28.00" y1="55.00" x2="28.00" y2="54.40"/>
+<line class="rule" x1="29.00" y1="55.00" x2="29.00" y2="54.40"/>
+<line class="rule" x1="30.00" y1="55.00" x2="30.00" y2="54.40"/>
+<line class="rule" x1="31.00" y1="55.00" x2="31.00" y2="54.40"/>
+<line class="rule" x1="32.00" y1="55.00" x2="32.00" y2="53.80"/>
+<line class="rule" x1="33.00" y1="55.00" x2="33.00" y2="54.40"/>
+<line class="rule" x1="34.00" y1="55.00" x2="34.00" y2="54.40"/>
+<line class="rule" x1="35.00" y1="55.00" x2="35.00" y2="54.40"/>
+<line class="rule" x1="36.00" y1="55.00" x2="36.00" y2="54.40"/>
+<line class="rule" x1="37.00" y1="55.00" x2="37.00" y2="53.80"/>
+<line class="rule" x1="38.00" y1="55.00" x2="38.00" y2="54.40"/>
+<line class="rule" x1="39.00" y1="55.00" x2="39.00" y2="54.40"/>
+<line class="rule" x1="40.00" y1="55.00" x2="40.00" y2="54.40"/>
+<line class="rule" x1="41.00" y1="55.00" x2="41.00" y2="54.40"/>
+<line class="rule" x1="42.00" y1="55.00" x2="42.00" y2="53.80"/>
+<text class="sub" x="21.50" y="58.00">0</text>
+<text class="sub" x="40.00" y="58.00">20 mm</text>
+<text class="warn" x="22.00" y="63.00">Pinout from KiCad curated Ai-Thinker-Ra-01; SX126x signal mapping still assumed. Verify.</text>
+<text class="sub" x="22.00" y="66.50">Body 17.0 x 16.0 mm, 16 castellated pads, 2.0 mm pitch, pad 2.0 x 1.5 mm. Dot = pin 1 = ANT.</text>
+<text class="sub" x="22.00" y="69.50">If it disagrees: fix RA01SH_PINS in scripts/design.py, then re-run gen_footprints.py and gen_pcb.py.</text>
+</svg>
