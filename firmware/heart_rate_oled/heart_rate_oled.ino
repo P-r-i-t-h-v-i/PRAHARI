@@ -33,6 +33,7 @@ const uint32_t DISPLAY_PERIOD_MS = 500;
 
 void setup() {
   Serial.begin(115200);
+  delay(500);
 
   Wire.begin();
 
