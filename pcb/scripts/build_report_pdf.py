@@ -92,7 +92,7 @@ def _chrome(canvas, doc, pw, ph):
     canvas.line(20 * mm, 14 * mm, pw - 20 * mm, 14 * mm)
     canvas.setFillColor(GREY)
     canvas.setFont("DV", 7.8)
-    canvas.drawString(20 * mm, 10 * mm, "Wearable multi-hazard early-warning band · rev B hardware")
+    canvas.drawString(20 * mm, 10 * mm, "Wearable multi-hazard early-warning band")
     canvas.drawRightString(pw - 20 * mm, 10 * mm, f"Page {doc.page}")
     canvas.restoreState()
 
